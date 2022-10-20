@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto+Slab&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap");
+
+.b-header-main {
+  background-color: #f4ae1a;
+  position: fixed;
+    width: 100%;
+    top: 100px;
+    z-index: 1;
+}
+.b-header-products {
+  display: flex;
+  height: 40px;
+  gap: 25px;
+  margin-left: 58px;
+}
+.b-header-products li {
+  align-self: center;
+}
+.b-header-products li a {
+  color: #000;
+  font-family: "Inter Tight", sans-serif;
+  /* font-family: "Roboto Slab", serif; */
+  transition: all 0.5s;
+  white-space: nowrap;
+}
+.b-header-products li a:hover {
+  color: #2a6496;
+  transition: all 0.5s;
+}
+.bottom-header {
+  display: flex;
+}
+.quick-order {
+  margin-left: 34em;
+  position: relative;
+  top: 11px;
+  color: #000;
+  font-family: "Inter Tight", sans-serif;
+  transition: all 0.5s;
+}
+.quick-order:hover {
+  color: #2a6496;
+  transition: all 0.5s;
+}
+.carousel-control-next-icon {
+  margin-left: 170px;
+}
+.carousel-control-prev-icon {
+  margin-right: 170px;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 760%;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}

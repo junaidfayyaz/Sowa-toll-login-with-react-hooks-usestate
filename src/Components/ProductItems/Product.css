@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto+Slab&display=swap");
+.product-heading h2 {
+  font-size: 38px;
+  color: #454545;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-family: "Inter Tight", sans-serif;
+}
+.products-block ul {
+  display: flex;
+  gap: 23px;
+}
+.products-block ul li a img {
+  width: 170px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+.products-block ul li a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+.p-drill {
+  position: relative;
+  left: 20px;
+  transition: all 0.5s;
+}
+.p-index {
+  position: relative;
+  left: 18px;
+  transition: all 0.5s;
+}
+.p-measure {
+  position: relative;
+  left: 15px;
+  transition: all 0.5s;
+}
+.p-milling {
+  position: relative;
+  left: 67px;
+  transition: all 0.5s;
+}
+.p-thread {
+  position: relative;
+  left: 30px;
+  transition: all 0.5s;
+}
+.p-tool {
+  position: relative;
+  left: 54px;
+  transition: all 0.5s;
+}
+.p-work {
+  position: relative;
+  left: 12px;
+  transition: all 0.5s;
+}
+.p-drill:hover,
+.p-work:hover,
+.p-index:hover,
+.p-measure:hover,
+.p-milling:hover,
+.p-thread:hover,
+.p-tool:hover {
+  color: #2a6496;
+  transition: all 0.5s;
+}

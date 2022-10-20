@@ -1,0 +1,40 @@
+.top-bottom-main {
+  background-color: #251f1f;
+  width: 100%;
+  height: 80px;
+  margin-top: 30px;
+}
+.top-bottom-heading {
+  display: flex;
+  margin-left: 108px;
+  white-space: nowrap;
+  margin-top: 21px;
+}
+.top-bottom-heading h1 {
+  color: #f4ae1a;
+  font-weight: bold;
+  font-size: 31px;
+}
+.top-bottom-heading h6 {
+  margin-top: 15px;
+  color: white;
+  margin-left: 5px;
+}
+.top-bottom-icon {
+  color: #2a6496;
+  display: flex;
+  margin-left: 60.07em;
+  margin-top: -33px;
+}
+.top-botto::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 5px;
+  left: 0;
+  margin-top: 15px;
+  margin-left: 59em;
+}
